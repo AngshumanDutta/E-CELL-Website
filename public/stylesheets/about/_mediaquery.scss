@@ -1,0 +1,32 @@
+// MEDIA QUERY
+@media screen and (max-width: 575px) {
+    button{
+        transform: scale(0.8);
+        left: 1.5vw;
+    }
+
+    .ecell{
+        height: 130vh;
+        .section-1{
+            flex-basis: 7%;
+        }
+        #ecell-para{
+            flex-basis: 90%;
+            width: 85vw;
+            font-size: 0.9em;
+            line-height: 1.2em;
+        }
+    }
+
+    .nit{
+        .section-1{
+            flex-basis: 10%;
+        }
+        #nit-para{
+            flex-basis: 90%;
+            width: 85vw;
+            font-size: 0.9em;
+            line-height: 1.2em;
+        }
+    }
+}

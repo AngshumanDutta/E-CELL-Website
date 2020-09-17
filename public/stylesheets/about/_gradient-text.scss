@@ -1,0 +1,16 @@
+p {
+    background: radial-gradient(circle, #45db23 0%,  #150f70 20%, #31bfc4 40%, #070791 60%, #ba14b7 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 400%;
+    animation: gradient 9s linear infinite alternate;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 100%;
+    }
+  }

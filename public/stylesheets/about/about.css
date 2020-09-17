@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+button {
+  position: relative;
+  left: 7vw;
+  top: 0.1em;
+  font-size: 1.3rem;
+}
+
+button span {
+  color: white;
+}
+
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  -webkit-box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.btn {
+  position: relative;
+  right: 20px;
+  bottom: 20px;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  -webkit-perspective: 230px;
+  perspective: 230px;
+}
+
+.btn span {
+  background: #00acee;
+  background: -webkit-gradient(linear, left bottom, left top, from(#00acee), to(#027efb));
+  background: linear-gradient(0deg, #00acee 0%, #027efb 100%);
+  display: block;
+  position: absolute;
+  width: 130px;
+  height: 40px;
+  -webkit-box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.btn span:nth-child(1) {
+  -webkit-box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+          box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+  -webkit-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+
+.btn span:nth-child(2) {
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+
+.btn:hover span:nth-child(1) {
+  -webkit-box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+
+.btn:hover span:nth-child(2) {
+  -webkit-box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  color: transparent;
+  -webkit-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+
+p {
+  background: radial-gradient(circle, #45db23 0%, #150f70 20%, #31bfc4 40%, #070791 60%, #ba14b7 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 400%;
+  -webkit-animation: gradient 9s linear infinite alternate;
+          animation: gradient 9s linear infinite alternate;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  width: 100vw;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  width: 100vw;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+nav {
+  height: 10vh;
+  width: 100vw;
+  z-index: 5;
+  position: fixed;
+  background-color: #141414;
+}
+
+img {
+  padding-left: 1.2em;
+}
+
+#bold {
+  font-weight: bolder;
+  font-size: 1.2em;
+  color: black;
+}
+
+.ecell {
+  width: 100vw;
+  height: 90vh;
+  padding-top: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ecell .section-1 {
+  -ms-flex-preferred-size: 15%;
+      flex-basis: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ecell .section-1 img {
+  width: 9em;
+  height: 7em;
+}
+
+.ecell #ecell-para {
+  -ms-flex-preferred-size: 85%;
+      flex-basis: 85%;
+  width: 82vw;
+  font-size: 1.1em;
+  line-height: 1.6em;
+}
+
+.nit {
+  width: 100vw;
+  height: 88vh;
+  padding-top: 12vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nit .section-1 {
+  -ms-flex-preferred-size: 15%;
+      flex-basis: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nit .section-1 img {
+  width: 6em;
+  height: 5em;
+}
+
+.nit #nit-para {
+  -ms-flex-preferred-size: 85%;
+      flex-basis: 85%;
+  width: 82vw;
+  font-size: 1.1em;
+  line-height: 1.6em;
+}
+
+@media screen and (max-width: 575px) {
+  button {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    left: 1.5vw;
+  }
+  .ecell {
+    height: 130vh;
+  }
+  .ecell .section-1 {
+    -ms-flex-preferred-size: 7%;
+        flex-basis: 7%;
+  }
+  .ecell #ecell-para {
+    -ms-flex-preferred-size: 90%;
+        flex-basis: 90%;
+    width: 85vw;
+    font-size: 0.9em;
+    line-height: 1.2em;
+  }
+  .nit .section-1 {
+    -ms-flex-preferred-size: 10%;
+        flex-basis: 10%;
+  }
+  .nit #nit-para {
+    -ms-flex-preferred-size: 90%;
+        flex-basis: 90%;
+    width: 85vw;
+    font-size: 0.9em;
+    line-height: 1.2em;
+  }
+}
+/*# sourceMappingURL=about.css.map */

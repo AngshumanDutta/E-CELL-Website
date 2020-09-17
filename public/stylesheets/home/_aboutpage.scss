@@ -1,0 +1,140 @@
+.aboutpage {
+    width: 100vw;
+    height: 90vh;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .about-section-1 {
+        width: 99%;
+        height: 60%;
+        display: flex;
+        justify-content: space-around;
+        .about-us-text{
+            width: 55%;
+            height: 98%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+        }
+        .about-svg{
+            width: 45%;
+            height: 98%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 70vw;
+                height: 72%;
+            }
+        }
+    }
+    .about-section-2 {
+        width: 99%;
+        height: 37%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        p{
+            width: 72%;
+            height: 60%;
+            line-height: 2vw;
+            font-size: 1.5vw;
+            font-weight: 500;
+        }
+    }
+}
+
+#learn-more-about {
+    border: 2.1px solid black;
+    width: 8em;
+    height: 1.9em;
+    border-radius: 10px;
+    background-color: transparent;
+    outline: none;
+    a:link {
+        text-decoration: none;
+        color: black;
+    }
+    a:visited {
+        text-decoration: none;
+        color: black;
+    }
+    a {
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+}
+
+#learn-more-about:hover {
+    background-color: black;
+    a {
+        color: white;
+    }
+}
+
+.intro-text-about {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.5s all ease-in-out;
+}
+
+.intro-appear-about {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+
+// MEDIA QUERY
+@media screen and (max-width: 575px) {
+    .about-section-1 {
+        width: 99%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .about-us-text{
+            width: 55%;
+            height: 1px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h1{
+                font-size: 35px;
+            }
+        }
+        .about-svg{
+            width: 98%;
+            height: 78%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 80vw;
+                height: 40vh;
+            }
+        }
+    }
+    .about-section-2 {
+        width: 99%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        p{
+            transform: scale(1.8);
+            overflow: hidden;
+            max-width: 48ch;
+            position: relative;
+            top: 50px;
+        }
+    }
+    #learn-more-about {
+        z-index: 99;
+    }
+}

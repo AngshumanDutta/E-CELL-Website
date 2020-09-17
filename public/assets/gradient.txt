@@ -1,0 +1,16 @@
+.about-text-gradient {
+  background-image: linear-gradient(to right, #7e27ce, #8c41d5, #9a58db, #a86de2, #b581e8, #a691f3, #99a0fb, #8eadff, #60b7fd, #33bff2, #22c4e0, #3fc6ca);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+
+
+background-image: linear-gradient(to right, #7e27ce, #8c41d5, #9a58db, #a86de2, #b581e8, #a691f3, #99a0fb, #8eadff, #60b7fd, #33bff2, #22c4e0, #3fc6ca);
+
+
+background-image: linear-gradient(to right top, #7e27ce, #8c41d5, #9a58db, #a86de2, #b581e8, #a691f3, #99a0fb, #8eadff, #60b7fd, #33bff2, #22c4e0, #3fc6ca);
+
+
+background-image: linear-gradient(to left bottom, #7e27ce, #8c41d5, #9a58db, #a86de2, #b581e8, #a691f3, #99a0fb, #8eadff, #60b7fd, #33bff2, #22c4e0, #3fc6ca);

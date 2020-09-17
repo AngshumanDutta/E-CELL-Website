@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+@import "./svg";
+@import "./nav";
+@import "./titlepage";
+@import "./aboutpage";
+@import "./eventpage";
+@import "./connectpage";
+@import "./teampage";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100vw;
+}
+
+.homepage {
+    width: 100vw;
+}
+
+.horizontal-line {
+    width: 90vw;
+    margin: 0 auto;
+    color: #141414;
+}
+
+
+
+
